@@ -9,4 +9,3 @@ to build and use them if you would find them useful.
 |:------------------|:-------------------------------|:-----------------------------------------------------------------------:|
 | No Chat           | Hides the chat when not paused |                                   N/A                                   |
 | Aboubi Acrobatics | Allows you to flip in midair   | [link](https://thunderstore.io/c/straftat/p/kestrel/Aboubi_Acrobatics/) |
-|
