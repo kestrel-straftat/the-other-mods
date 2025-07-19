@@ -1,6 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Logging;
+using ComputerysModdingUtilities;
 using DG.Tweening;
 using Goodgulf.Graphics;
 using HarmonyLib;
@@ -8,7 +9,6 @@ using HeathenEngineering.DEMO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using ComputerysModdingUtilities;
 
 [assembly: StraftatMod(isVanillaCompatible: true)]
 
