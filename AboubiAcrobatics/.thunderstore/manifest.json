@@ -1,7 +1,7 @@
 {
   "name": "Aboubi_Acrobatics",
   "version_number": "1.0.0",
-  "website_url": "https://github.com/kestrel-straftat/aboubi-acrobatics",
+  "website_url": "https://github.com/kestrel-straftat/the-other-mods",
   "description": "Allows you to flip in midair",
   "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
 }
