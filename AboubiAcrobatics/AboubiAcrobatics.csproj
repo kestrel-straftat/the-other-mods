@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>NoChat</AssemblyName>
-    <Description>A mod for Straftat that disables chat</Description>
-    <Product>kestrel.straftat.nochat</Product>
-    <Version>1.1.0</Version>
+    <AssemblyName>AboubiAcrobatics</AssemblyName>
+    <Description>A mod for Straftat that allows you to flip in midair</Description>
+    <Product>kestrel.straftat.aboubiacrobatics</Product>
+    <Version>1.0.0</Version>
     <TargetFramework>netstandard2.1</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
@@ -19,37 +19,26 @@
     <GameLibs>$(GameDir)\STRAFTAT_Data\Managed</GameLibs>
     <BepInExDir>$(appdata)\com.kesomannen.gale\straftat\profiles\Default\BepInEx</BepInExDir>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
     <PackageReference Include="BepInEx.Core" Version="5.*" />
     <PackageReference Include="BepInEx.PluginInfoProps" Version="1.*" />
     <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.3" />
     <PackageReference Include="UnityEngine.Modules" Version="2021.3.16" IncludeAssets="compile" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>$(GameLibs)\Assembly-CSharp.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>$(GameLibs)\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="Heathen.Steamworks">
-      <HintPath>$(GameLibs)\Heathen.Steamworks.dll</HintPath>
-    </Reference>
-    <Reference Include="Heathen.Steamworks.Examples">
-      <HintPath>$(GameLibs)\Heathen.Steamworks.Examples.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>$(GameLibs)\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>$(GameLibs)\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="ComputerysModdingUtilities">
       <HintPath>$(GameLibs)\ComputerysModdingUtilities.dll</HintPath>
     </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".thunderstore\**" />
   </ItemGroup>
 
   <Target Name="CopyDllToGame" AfterTargets="PostBuildEvent">
