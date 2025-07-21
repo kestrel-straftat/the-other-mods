@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoChat", "NoChat\NoChat.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboubiAcrobatics", "AboubiAcrobatics\AboubiAcrobatics.csproj", "{1299AD03-C118-4CA9-A1C9-AD0B395D9812}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HideUI", "HideUI\HideUI.csproj", "{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1299AD03-C118-4CA9-A1C9-AD0B395D9812}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1299AD03-C118-4CA9-A1C9-AD0B395D9812}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1299AD03-C118-4CA9-A1C9-AD0B395D9812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
