@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <AssemblyName>HideUI</AssemblyName>
     <Description>Allows you to hide the ui</Description>
@@ -15,9 +14,12 @@
     <GameDir>C:\Program Files (x86)\Steam\steamapps\common\STRAFTAT</GameDir>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(BepInExDir)' == ''">
+    <BepInExDir>$(GameDir)\BepInEx</BepInExDir>
+  </PropertyGroup>
+  
   <PropertyGroup>
-    <GameLibs>$(GameDir)\STRAFTAT_Data\Managed</GameLibs>
-    <BepInExDir>$(appdata)\com.kesomannen.gale\straftat\profiles\Default\BepInEx</BepInExDir>
+    <GameLibDir>$(GameDir)\STRAFTAT_Data\Managed</GameLibDir>
   </PropertyGroup>
   
   <ItemGroup>
@@ -29,22 +31,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="Assembly-CSharp" Publicize="True">
-      <HintPath>$(GameLibs)\Assembly-CSharp.dll</HintPath>
+    <Reference Include="Assembly-CSharp" Publicize="true">
+      <HintPath>$(GameLibDir)\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="ComputerysModdingUtilities">
-      <HintPath>$(GameLibs)\ComputerysModdingUtilities.dll</HintPath>
+      <HintPath>$(GameLibDir)\ComputerysModdingUtilities.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>$(GameLibs)\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>$(GameLibDir)\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="FishNet.Runtime">
-      <HintPath>$(GameLibs)\FishNet.Runtime.dll</HintPath>
+      <HintPath>$(GameLibDir)\FishNet.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
 
   <ItemGroup>
-    <None Include=".thunderstore\**" />
+    <Content Include="HideUI.csproj.user" />
   </ItemGroup>
 
   <Target Name="CopyDllToGame" AfterTargets="PostBuildEvent">
