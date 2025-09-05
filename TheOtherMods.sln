@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboubiAcrobatics", "AboubiA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HideUI", "HideUI\HideUI.csproj", "{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlopeVision", "SlopeVision\SlopeVision.csproj", "{675F7BF0-30C8-4D2C-9B51-FBDA5651EE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecentlyPlayed", "RecentlyPlayed\RecentlyPlayed.csproj", "{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B36F51-0BA7-42F4-BF26-4DD06CE6017B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675F7BF0-30C8-4D2C-9B51-FBDA5651EE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675F7BF0-30C8-4D2C-9B51-FBDA5651EE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675F7BF0-30C8-4D2C-9B51-FBDA5651EE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675F7BF0-30C8-4D2C-9B51-FBDA5651EE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,7 @@
+{
+  "name": "RecentlyPlayed",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/kestrel-straftat/the-other-mods",
+  "description": "Adds players you've recently played with to steam's list of recent players",
+  "dependencies": ["BepInEx-BepInExPack-5.4.2100"]
+}
