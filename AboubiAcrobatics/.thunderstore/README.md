@@ -8,7 +8,7 @@ lets you flip in midair
 
 Once you hit the ground the mod automatically corrects your rotation to the original limits, or to looking straight forward
 if you were in the air for long enough. You can configure the amount of time in the air after which you'll be corrected
-to looking forwards and the amount of time the correction takes.
+to looking forwards and the amount of time the correction takes (you can also disable this feature entirely). 
 
 ## Manual Installation Instructions
 
