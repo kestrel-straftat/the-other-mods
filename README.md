@@ -11,3 +11,4 @@ to build and use them if you would find them useful.
 | HideUI            | Allows you to toggle the UI with a hotkey (only works with minimal UI) |                                   N/A                                   |
 | Aboubi Acrobatics | Allows you to flip in midair                                           | [link](https://thunderstore.io/c/straftat/p/kestrel/Aboubi_Acrobatics/) |
 | RecentlyPlayed    | Adds recently played with players to steam's recently played with list |  [link](https://thunderstore.io/c/straftat/p/kestrel/RecentlyPlayed/)   |
+| IdentityCrisis    | Gives the crisis a. well you can probably work that one out            |                                   N/A                                   |
