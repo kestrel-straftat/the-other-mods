@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlopeVision", "SlopeVision\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecentlyPlayed", "RecentlyPlayed\RecentlyPlayed.csproj", "{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboubiUnbound", "AboubiUnbound\AboubiUnbound.csproj", "{7A0F9764-2619-4999-828B-B120D6A60C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityCrisis", "IdentityCrisis\IdentityCrisis.csproj", "{899F31B3-D4D2-40A9-84CD-7B3A9BDF80C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +40,13 @@ Global
 		{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B970EDE2-B6DD-4908-93BC-DBC3BBFDFDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0F9764-2619-4999-828B-B120D6A60C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0F9764-2619-4999-828B-B120D6A60C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0F9764-2619-4999-828B-B120D6A60C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0F9764-2619-4999-828B-B120D6A60C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{899F31B3-D4D2-40A9-84CD-7B3A9BDF80C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{899F31B3-D4D2-40A9-84CD-7B3A9BDF80C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{899F31B3-D4D2-40A9-84CD-7B3A9BDF80C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{899F31B3-D4D2-40A9-84CD-7B3A9BDF80C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
