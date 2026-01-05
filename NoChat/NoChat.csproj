@@ -4,7 +4,7 @@
     <AssemblyName>NoChat</AssemblyName>
     <Description>A mod for Straftat that disables chat</Description>
     <Product>kestrel.straftat.nochat</Product>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <TargetFramework>netstandard2.1</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>

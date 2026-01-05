@@ -21,6 +21,7 @@ public class Plugin : BaseUnityPlugin
     internal static new ManualLogSource Logger;
 
     private static ConfigEntry<bool> m_showChatWhenPaused;
+    private static ConfigEntry<KeyCode> m_toggleChatKey;
     private static bool m_shouldDisableChat = true;
     private static GameObject m_chatPanel;
     private static TMP_InputField m_inputField;
@@ -32,10 +33,19 @@ public class Plugin : BaseUnityPlugin
         Instance = this;
         Logger = base.Logger;
         m_showChatWhenPaused = Config.Bind("General", "Show chat when paused", true, "Should chat be shown again when the game is paused?");
+        m_toggleChatKey = Config.Bind("General", "Toggle key", KeyCode.P, "The key to toggle chat on/off");
         
         new Harmony(PluginInfo.PLUGIN_GUID).PatchAll();
         Logger.LogInfo("Hiiiiiiiiiiii :3");
-    } 
+    }
+
+    private void Update() {
+        if (Input.GetKeyDown(m_toggleChatKey.Value)) {
+            m_shouldDisableChat = !m_shouldDisableChat;
+            PauseManager.Instance.WriteOfflineLog($"{(m_shouldDisableChat ? "Disabled" : "Enabled")} chat");
+            m_chatPanel.transform.localScale = m_shouldDisableChat ? Vector3.zero : Vector3.one;
+        }
+    }
 
     [HarmonyPatch(typeof(LobbyChatUILogic))]
     internal static class LobbyChatUILogicPatch
@@ -51,7 +61,8 @@ public class Plugin : BaseUnityPlugin
         // still want to handle messages if we're showing chat when the game is paused
         [HarmonyPatch("HandleChatMessage")]
         [HarmonyPrefix]
-        public static bool DisableMessageHandling() => m_showChatWhenPaused.Value;
+        public static bool DisableMessageHandling() => !m_shouldDisableChat || m_showChatWhenPaused.Value;
+        
     }
 
     [HarmonyPatch(typeof(MatchChat))]
