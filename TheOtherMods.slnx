@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="AboubiAcrobatics/AboubiAcrobatics.csproj" />
+  <Project Path="AboubiUnbound/AboubiUnbound.csproj" />
+  <Project Path="HideUI/HideUI.csproj" />
+  <Project Path="IdentityCrisis/IdentityCrisis.csproj" />
+  <Project Path="NoChat/NoChat.csproj" />
+  <Project Path="RecentlyPlayed/RecentlyPlayed.csproj" />
+  <Project Path="SlopeVision/SlopeVision.csproj" />
+</Solution>
