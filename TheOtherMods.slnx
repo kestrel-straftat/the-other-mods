@@ -6,4 +6,5 @@
   <Project Path="NoChat/NoChat.csproj" />
   <Project Path="RecentlyPlayed/RecentlyPlayed.csproj" />
   <Project Path="SlopeVision/SlopeVision.csproj" />
+  <Project Path="ChromaKey/ChromaKey.csproj" />
 </Solution>
